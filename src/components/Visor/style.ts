@@ -14,6 +14,8 @@ export const VisorContainer = styled.div`
     p {
       font-size: 1rem;
       line-height: 1.4rem;
+      font-weight: 700;
+      word-spacing: 0.15rem;
       color: ${defaultTheme['white']};
       max-width: 100%;
       word-wrap: break-word;
