@@ -2,12 +2,13 @@ import { OperadorButtonContainer } from "./style";
 
 interface OperadorPros {
     operacao: string
+    simbolo: string
 }
 
-export default function Operador({operacao} : OperadorPros){
+export default function Operador({operacao, simbolo} : OperadorPros){
     return (
         <OperadorButtonContainer>
-            {operacao}
+            {simbolo}
         </OperadorButtonContainer>
     );
 }

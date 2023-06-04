@@ -17,6 +17,11 @@ export const GlobalStyle = createGlobalStyle`
     background: ${defaultTheme['gray-800']};
     color: ${defaultTheme['white']};
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 40px;
   }
 
   body, input, textarea, button {
