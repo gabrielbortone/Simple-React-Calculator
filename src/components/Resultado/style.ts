@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../styles/Colors";
 
-export const NumeroButtonContainer = styled.button`
+export const ResultadoButtonContainer = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,5 +11,6 @@ export const NumeroButtonContainer = styled.button`
     color: ${defaultTheme['white']};
     background: ${defaultTheme['blue-600']};
     border: 1 solid ${defaultTheme['gray-600']};
-    border-radius: 50%;
+    border-radius: 25%;
+    grid-column: span 2;
 `;
